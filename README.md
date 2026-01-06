@@ -1,7 +1,7 @@
 # House Price Prediction using Machine Learning
 
 ## 1. Overview
-This project predicts house prices using a Linear Regression model based on features
+This project predicts house prices using a Linear Regression or a Random Forest model based on features
 such as area, number of bedrooms, and bathrooms.
 
 ## 2. Technologies Used
@@ -25,5 +25,5 @@ python src/train.py
 
 ## 5. Future Improvements
 - Add feature scaling
-- Try Random Forest or XGBoost
+- Try XGBoost
 - Deploy model using Flask
