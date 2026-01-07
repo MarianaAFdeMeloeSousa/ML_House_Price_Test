@@ -4,7 +4,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from model import get_model
 
 # Load data
-data = pd.read_csv("data/housing.csv")
+data = pd.read_csv("../data/housing.csv")
 
 # Features and target
 X = data.drop("price", axis=1)
